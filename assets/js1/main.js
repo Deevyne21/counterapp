@@ -1,5 +1,5 @@
 // Buttons and counter text
-// alert("hiiiii")
+
 
 const incrementButton = document.getElementById("increment")
 const decrementButton = document.getElementById("decrement")
