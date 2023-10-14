@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 70vh;
+    width: 50vw;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: yellow;
+}
+
+.container h1 {
+    font-size: 30px;
+    padding-top: -30px;
+}
+
+.btn {
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 15px 50px;
+    justify-content: space-between;
+    margin: 30px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+#counter {
+    padding: 15px 50px;
+    border-radius: 10px;
+    background-color: pink;
+    font-weight: 700;
+}
+
+.btn .reset {
+    text-align: center;
+}
